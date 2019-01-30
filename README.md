@@ -11,7 +11,10 @@ FortnightUtils is a small library of utils functions and variables that allow yo
 ## Features.
 
 - [UIColor](#uicolor)
+  - [RGB color](#rgb-color)
+  - [HEX color](#hex-color)
 - [UIButton](#uibutton)
+  - [System button](#uibutton)
 - [UILabel](#uilabel)
   - [Characters spacing](#set-characters-spacing)
   - [Line height](#set-line-height)
@@ -57,11 +60,11 @@ import FortnightUtils
 ```
 
 #### UIColor
-##### RGB Color
+##### RGB color
 ```swift
 let RGBColor = UIColor(r: 255, g: 255, b: 255, a: 1)
 ```
-##### HEX Color
+##### HEX color
 ```swift
 let HEXColor = UIColor(hex: "#d73a49", alpha: 1)
 ```
