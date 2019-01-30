@@ -14,6 +14,7 @@
 		029E1AF82201ACB600FE4A37 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E1AF72201ACB600FE4A37 /* UIViewController.swift */; };
 		029E1AFA2201ACD200FE4A37 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E1AF92201ACD200FE4A37 /* UIView.swift */; };
 		029E1AFC2201AE1800FE4A37 /* CachedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E1AFB2201AE1800FE4A37 /* CachedImageView.swift */; };
+		029E1B1E2201C17000FE4A37 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E1B1D2201C17000FE4A37 /* UIButton.swift */; };
 		46D25ED82BE5BA65B096FA70ABACCB67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		544ACA8235DB00E82F3420DB5B12A29B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		76685EF2D695120AD1E39D9AABEF2238 /* Pods-FortnightUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 077F10752839436777A2F7E17916AD10 /* Pods-FortnightUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,6 +42,7 @@
 		029E1AF72201ACB600FE4A37 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		029E1AF92201ACD200FE4A37 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		029E1AFB2201AE1800FE4A37 /* CachedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedImageView.swift; sourceTree = "<group>"; };
+		029E1B1D2201C17000FE4A37 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		077F10752839436777A2F7E17916AD10 /* Pods-FortnightUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FortnightUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0C36BBF4EE73D1F3179D55D1AB598BC4 /* FortnightUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FortnightUtils-dummy.m"; sourceTree = "<group>"; };
 		0DED9D51BB58256F621A8294B1944845 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,11 +91,12 @@
 			isa = PBXGroup;
 			children = (
 				029E1AEF2201AA7000FE4A37 /* UIColor.swift */,
-				029E1AF12201AC7700FE4A37 /* UserDefaults.swift */,
 				029E1AF32201AC8D00FE4A37 /* UILabel.swift */,
+				029E1B1D2201C17000FE4A37 /* UIButton.swift */,
 				029E1AF52201ACA300FE4A37 /* UITextView.swift */,
-				029E1AF72201ACB600FE4A37 /* UIViewController.swift */,
 				029E1AF92201ACD200FE4A37 /* UIView.swift */,
+				029E1AF72201ACB600FE4A37 /* UIViewController.swift */,
+				029E1AF12201AC7700FE4A37 /* UserDefaults.swift */,
 				029E1AFB2201AE1800FE4A37 /* CachedImageView.swift */,
 			);
 			name = Files;
@@ -307,6 +310,7 @@
 				DD170F0B8A0273CAEE39ABF86DC038F4 /* FortnightUtils-dummy.m in Sources */,
 				029E1AF02201AA7000FE4A37 /* UIColor.swift in Sources */,
 				029E1AFC2201AE1800FE4A37 /* CachedImageView.swift in Sources */,
+				029E1B1E2201C17000FE4A37 /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
