@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FortnightUtils'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FortnightUtils.'
+  s.summary          = 'A small library of components that allows you to quickly build your app programmatically using multiple UIView extensions any many others.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,19 +17,18 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'A small library of components that allows you to quickly build your app programmatically using multiple UIView extensions any many others. This library includes helper extensions.'
 
-  s.homepage         = 'https://github.com/andreatoso/FortnightUtils'
+  s.homepage         = 'https://github.com/StudioFortnight/FortnightUtils'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'andreatoso' => 'andrea.toso99@gmail.com' }
-  s.source           = { :git => 'https://github.com/andreatoso/FortnightUtils.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Fortnight Studio' => 'development@fortnight.studio' }
+  s.source           = { :git => 'https://github.com/StudioFortnight/FortnightUtils.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/studiofortnight'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
+  s.swift_version = '4.2'
   s.source_files = 'FortnightUtils/Classes/**/*'
   
   # s.resource_bundles = {
