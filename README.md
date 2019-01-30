@@ -5,11 +5,16 @@
 [![License](https://img.shields.io/cocoapods/l/FortnightUtils.svg?style=flat)](https://cocoapods.org/pods/FortnightUtils)
 [![Platform](https://img.shields.io/cocoapods/p/FortnightUtils.svg?style=flat)](https://cocoapods.org/pods/FortnightUtils)
 
+## Description
+FortnightUtils is a small library of utils functions and variables that allow you to quickly build your app programmatically. The aim of this library is to use these components without worrying about creating your own helper files and extensions in order to build out production applications.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+This project requires Xcode 10+ running a target of iOS 9.3+ along with Cocoapods.
 
 ## Installation
 
@@ -20,9 +25,90 @@ it, simply add the following line to your Podfile:
 pod 'FortnightUtils'
 ```
 
+## Usage
+
+#### Import
+
+```swift
+import FortnightUtils
+```
+
+#### UIColor
+
+```swift
+let color = UIColor(r: 255, g: 255, b: 255, a: 1)
+```
+
+#### UserDefaults
+##### Check app first launch
+```swift
+let isFirstLaunch = UserDefaults.isAppFirstLaunch
+```
+##### Update app first launch
+```swift
+_ = UserDefaults.setAppFirstLaunch()
+```
+
+#### UILabel
+##### Set characters spacing
+```swift
+myLabel.setCharactersSpacing(value: 2.5)
+```
+##### Set line height
+```swift
+myLabel.setLineHeight(value: 0.5)
+// or
+myLabel.setLineHeight(value: 0.5, lineBreakMode: byWordWrapping, alignment: .center)
+```
+> lineBreakMode and alignment are optional parameters.
+
+#### UITextView
+```swift
+myTextView.setLineHeight(value: 0.5)
+// or
+myTextView.setLineHeight(value: 0.5, alignment: .center)
+```
+> alignment is an optional parameter.
+
+#### UIViewController
+##### Add child view controller
+```swift
+let childViewController = ChildViewController()
+
+self.add(childViewController)
+```
+#### Remove child view controller
+```swift
+let childViewController = ChildViewController()
+
+childViewController.remove()
+```
+
+#### UIView
+##### Fill superview
+```swift
+myView.fillSuperView()
+```
+##### Center to superview
+```swift
+myView.anchorCenterSuperview()
+```
+##### Center Y axis to superview
+```swift
+myView.anchorCenterYToSuperview()
+```
+##### Center X axis to superview
+```swift
+myView.anchorCenterXToSuperview()
+```
+##### Anchor UIView
+```swift
+myView.anchor(top: view.topAnchor, left: view.leftAnchor, bottom: view.bottomAnchor, right: view.rightAnchor, topConstant: 10, leftConstant: 10, bottomConstant: 10, rightConstant: 10, widthConstant: 0, heightConstant: 0)
+```
+
 ## Author
 
-andreatoso, andrea.toso99@gmail.com
+Fortnight Studio, development@fortnight.studio
 
 ## License
 
