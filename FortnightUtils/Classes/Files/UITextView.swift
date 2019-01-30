@@ -10,6 +10,18 @@ import UIKit
 extension UITextView {
     
     /**
+     Set textview characters spacing.
+     
+     - parameter value: The value of the characters spacing.
+     */
+    public func setCharactersSpacing(value: CGFloat) {
+        if let textString = text {
+            let attrs: [NSAttributedString.Key : Any] = [.kern: value]
+            attributedText = NSAttributedString(string: textString, attributes: attrs)
+        }
+    }
+    
+    /**
      Set textview line height.
      
      - parameter value: The value of the line height.
