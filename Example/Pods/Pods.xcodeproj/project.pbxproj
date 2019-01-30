@@ -91,8 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				029E1AEF2201AA7000FE4A37 /* UIColor.swift */,
-				029E1AF32201AC8D00FE4A37 /* UILabel.swift */,
 				029E1B1D2201C17000FE4A37 /* UIButton.swift */,
+				029E1AF32201AC8D00FE4A37 /* UILabel.swift */,
 				029E1AF52201ACA300FE4A37 /* UITextView.swift */,
 				029E1AF92201ACD200FE4A37 /* UIView.swift */,
 				029E1AF72201ACB600FE4A37 /* UIViewController.swift */,
