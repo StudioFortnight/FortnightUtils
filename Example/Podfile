@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FortnightUtils_Tests' do
+  pod 'FortnightUtils', :path => '../'
+  
+  
+end
