@@ -1,0 +1,6 @@
+framework module Pods_FortnightUtils_Tests {
+  umbrella header "Pods-FortnightUtils_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

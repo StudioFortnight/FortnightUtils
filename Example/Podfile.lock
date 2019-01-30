@@ -1,0 +1,16 @@
+PODS:
+  - FortnightUtils (0.1.0)
+
+DEPENDENCIES:
+  - FortnightUtils (from `../`)
+
+EXTERNAL SOURCES:
+  FortnightUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FortnightUtils: 9e3bbd749725752a432e654b0187734042205958
+
+PODFILE CHECKSUM: e4be43f77e61d84b45a5095676b08dc0472fc466
+
+COCOAPODS: 1.5.3

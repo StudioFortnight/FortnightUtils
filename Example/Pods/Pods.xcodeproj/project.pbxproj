@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		029E1AF02201AA7000FE4A37 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E1AEF2201AA7000FE4A37 /* UIColor.swift */; };
+		029E1AF22201AC7700FE4A37 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E1AF12201AC7700FE4A37 /* UserDefaults.swift */; };
+		029E1AF42201AC8D00FE4A37 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E1AF32201AC8D00FE4A37 /* UILabel.swift */; };
+		029E1AF62201ACA300FE4A37 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E1AF52201ACA300FE4A37 /* UITextView.swift */; };
+		029E1AF82201ACB600FE4A37 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E1AF72201ACB600FE4A37 /* UIViewController.swift */; };
+		029E1AFA2201ACD200FE4A37 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E1AF92201ACD200FE4A37 /* UIView.swift */; };
+		029E1AFC2201AE1800FE4A37 /* CachedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E1AFB2201AE1800FE4A37 /* CachedImageView.swift */; };
+		46D25ED82BE5BA65B096FA70ABACCB67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		544ACA8235DB00E82F3420DB5B12A29B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		76685EF2D695120AD1E39D9AABEF2238 /* Pods-FortnightUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 077F10752839436777A2F7E17916AD10 /* Pods-FortnightUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C45B3F546B998E61338CDA05FA49D352 /* Pods-FortnightUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 346DB25A675F8A213D73A3FA4CD955F2 /* Pods-FortnightUtils_Tests-dummy.m */; };
+		DD170F0B8A0273CAEE39ABF86DC038F4 /* FortnightUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C36BBF4EE73D1F3179D55D1AB598BC4 /* FortnightUtils-dummy.m */; };
+		F2207DAC8903BECB6F03C442812139AB /* FortnightUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A568EC96D8F7EBF467E4337E06B8F8 /* FortnightUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F62ACED1B7C31C1D682BD6C42D2F27D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86C80583D1D4FAC6A628628BA2BEDF7B;
+			remoteInfo = FortnightUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02382E281F48503FF56BF7F6E9608FE8 /* FortnightUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FortnightUtils.modulemap; sourceTree = "<group>"; };
+		029E1AEF2201AA7000FE4A37 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		029E1AF12201AC7700FE4A37 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		029E1AF32201AC8D00FE4A37 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		029E1AF52201ACA300FE4A37 /* UITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		029E1AF72201ACB600FE4A37 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		029E1AF92201ACD200FE4A37 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		029E1AFB2201AE1800FE4A37 /* CachedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedImageView.swift; sourceTree = "<group>"; };
+		077F10752839436777A2F7E17916AD10 /* Pods-FortnightUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FortnightUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0C36BBF4EE73D1F3179D55D1AB598BC4 /* FortnightUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FortnightUtils-dummy.m"; sourceTree = "<group>"; };
+		0DED9D51BB58256F621A8294B1944845 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A568EC96D8F7EBF467E4337E06B8F8 /* FortnightUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FortnightUtils-umbrella.h"; sourceTree = "<group>"; };
+		33645E3ED0DD1E3B575D12D2628C676A /* Pods-FortnightUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FortnightUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		346DB25A675F8A213D73A3FA4CD955F2 /* Pods-FortnightUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FortnightUtils_Tests-dummy.m"; sourceTree = "<group>"; };
+		4561582AD814BE56C57EBC2678223752 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C013E6D0EDD43F7F39B19DE053248AB /* Pods-FortnightUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FortnightUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		53EB6BFB3512FD2939ADB6B8A2493760 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		56EE1F29985D6B1B0551BC97E3E9A251 /* Pods_FortnightUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortnightUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F0FD495BB8EB0298E760BCDB31F194 /* FortnightUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FortnightUtils-prefix.pch"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D2705A127547AD51F4BBA643F90ACDA /* Pods-FortnightUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FortnightUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		836093DC0E9339F78B448530AC89FBA8 /* FortnightUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FortnightUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2A77DF325701F3C18867EF0CCB6F6B /* FortnightUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FortnightUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACE2F2FB9577313DB6995D5A5834BEBF /* Pods-FortnightUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FortnightUtils_Tests.modulemap"; sourceTree = "<group>"; };
+		B3FFB2E5CB44D4CB2DD99B53432662A3 /* Pods-FortnightUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FortnightUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BDEB35347393EE5F08F184CDD2A6C5CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D5214E708D7431CDDE87749C9EAC7C98 /* FortnightUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FortnightUtils.xcconfig; sourceTree = "<group>"; };
+		DEA34B2C752C6D2EF08345A260F9D218 /* Pods-FortnightUtils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FortnightUtils_Tests-resources.sh"; sourceTree = "<group>"; };
+		FB9C0473E614ECDCB4D9ABF07B5B0973 /* Pods-FortnightUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FortnightUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44E338A2E63B7BAB7775D35DF2B961D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544ACA8235DB00E82F3420DB5B12A29B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CCCAA78CA683697F88409418BFD2DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D25ED82BE5BA65B096FA70ABACCB67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		029E1AEE2201AA2F00FE4A37 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				029E1AEF2201AA7000FE4A37 /* UIColor.swift */,
+				029E1AF12201AC7700FE4A37 /* UserDefaults.swift */,
+				029E1AF32201AC8D00FE4A37 /* UILabel.swift */,
+				029E1AF52201ACA300FE4A37 /* UITextView.swift */,
+				029E1AF72201ACB600FE4A37 /* UIViewController.swift */,
+				029E1AF92201ACD200FE4A37 /* UIView.swift */,
+				029E1AFB2201AE1800FE4A37 /* CachedImageView.swift */,
+			);
+			name = Files;
+			path = FortnightUtils/Classes/Files;
+			sourceTree = "<group>";
+		};
+		0939ED01B854B8D098F317E6140AEDE8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EC288BAF64756C212AAE336858B655E /* FortnightUtils */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		20073BC619510260F36C8521AC65345D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02382E281F48503FF56BF7F6E9608FE8 /* FortnightUtils.modulemap */,
+				D5214E708D7431CDDE87749C9EAC7C98 /* FortnightUtils.xcconfig */,
+				0C36BBF4EE73D1F3179D55D1AB598BC4 /* FortnightUtils-dummy.m */,
+				58F0FD495BB8EB0298E760BCDB31F194 /* FortnightUtils-prefix.pch */,
+				18A568EC96D8F7EBF467E4337E06B8F8 /* FortnightUtils-umbrella.h */,
+				0DED9D51BB58256F621A8294B1944845 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FortnightUtils";
+			sourceTree = "<group>";
+		};
+		22DA9B63A48E806B8607B86817259958 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8E2A77DF325701F3C18867EF0CCB6F6B /* FortnightUtils.podspec */,
+				53EB6BFB3512FD2939ADB6B8A2493760 /* LICENSE */,
+				BDEB35347393EE5F08F184CDD2A6C5CE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		40B777D782CBE23722236438B4797ABD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				836093DC0E9339F78B448530AC89FBA8 /* FortnightUtils.framework */,
+				56EE1F29985D6B1B0551BC97E3E9A251 /* Pods_FortnightUtils_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47985885EB90C88D47C3ACF1BEA330CE /* Pods-FortnightUtils_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4561582AD814BE56C57EBC2678223752 /* Info.plist */,
+				ACE2F2FB9577313DB6995D5A5834BEBF /* Pods-FortnightUtils_Tests.modulemap */,
+				33645E3ED0DD1E3B575D12D2628C676A /* Pods-FortnightUtils_Tests-acknowledgements.markdown */,
+				B3FFB2E5CB44D4CB2DD99B53432662A3 /* Pods-FortnightUtils_Tests-acknowledgements.plist */,
+				346DB25A675F8A213D73A3FA4CD955F2 /* Pods-FortnightUtils_Tests-dummy.m */,
+				7D2705A127547AD51F4BBA643F90ACDA /* Pods-FortnightUtils_Tests-frameworks.sh */,
+				DEA34B2C752C6D2EF08345A260F9D218 /* Pods-FortnightUtils_Tests-resources.sh */,
+				077F10752839436777A2F7E17916AD10 /* Pods-FortnightUtils_Tests-umbrella.h */,
+				4C013E6D0EDD43F7F39B19DE053248AB /* Pods-FortnightUtils_Tests.debug.xcconfig */,
+				FB9C0473E614ECDCB4D9ABF07B5B0973 /* Pods-FortnightUtils_Tests.release.xcconfig */,
+			);
+			name = "Pods-FortnightUtils_Tests";
+			path = "Target Support Files/Pods-FortnightUtils_Tests";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		75189ED24F659B7A5961A98D91BC41EE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47985885EB90C88D47C3ACF1BEA330CE /* Pods-FortnightUtils_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0939ED01B854B8D098F317E6140AEDE8 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				40B777D782CBE23722236438B4797ABD /* Products */,
+				75189ED24F659B7A5961A98D91BC41EE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9EC288BAF64756C212AAE336858B655E /* FortnightUtils */ = {
+			isa = PBXGroup;
+			children = (
+				029E1AEE2201AA2F00FE4A37 /* Files */,
+				22DA9B63A48E806B8607B86817259958 /* Pod */,
+				20073BC619510260F36C8521AC65345D /* Support Files */,
+			);
+			name = FortnightUtils;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1672FD03B8ABC66E5CE43F0C465B0D53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76685EF2D695120AD1E39D9AABEF2238 /* Pods-FortnightUtils_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C578B222C336B00262D04DF385381FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2207DAC8903BECB6F03C442812139AB /* FortnightUtils-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		86C80583D1D4FAC6A628628BA2BEDF7B /* FortnightUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7081CE05F5D33B67F958A56F4CAB00E /* Build configuration list for PBXNativeTarget "FortnightUtils" */;
+			buildPhases = (
+				614EFE252617E0958FA8C9C999F675F6 /* Sources */,
+				44E338A2E63B7BAB7775D35DF2B961D7 /* Frameworks */,
+				9C578B222C336B00262D04DF385381FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FortnightUtils;
+			productName = FortnightUtils;
+			productReference = 836093DC0E9339F78B448530AC89FBA8 /* FortnightUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F85429B1561FE2A0F8F0C6B4DB9D938 /* Pods-FortnightUtils_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014883AC18F67779EB0A58886C15C3C1 /* Build configuration list for PBXNativeTarget "Pods-FortnightUtils_Tests" */;
+			buildPhases = (
+				E3B86E54A7FCF1DABE6AB1902BB0EBD0 /* Sources */,
+				F5CCCAA78CA683697F88409418BFD2DB /* Frameworks */,
+				1672FD03B8ABC66E5CE43F0C465B0D53 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293CE36EB8013AEEB5F2E359232C1C95 /* PBXTargetDependency */,
+			);
+			name = "Pods-FortnightUtils_Tests";
+			productName = "Pods-FortnightUtils_Tests";
+			productReference = 56EE1F29985D6B1B0551BC97E3E9A251 /* Pods_FortnightUtils_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					86C80583D1D4FAC6A628628BA2BEDF7B = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 40B777D782CBE23722236438B4797ABD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86C80583D1D4FAC6A628628BA2BEDF7B /* FortnightUtils */,
+				8F85429B1561FE2A0F8F0C6B4DB9D938 /* Pods-FortnightUtils_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		614EFE252617E0958FA8C9C999F675F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029E1AFA2201ACD200FE4A37 /* UIView.swift in Sources */,
+				029E1AF82201ACB600FE4A37 /* UIViewController.swift in Sources */,
+				029E1AF42201AC8D00FE4A37 /* UILabel.swift in Sources */,
+				029E1AF62201ACA300FE4A37 /* UITextView.swift in Sources */,
+				029E1AF22201AC7700FE4A37 /* UserDefaults.swift in Sources */,
+				DD170F0B8A0273CAEE39ABF86DC038F4 /* FortnightUtils-dummy.m in Sources */,
+				029E1AF02201AA7000FE4A37 /* UIColor.swift in Sources */,
+				029E1AFC2201AE1800FE4A37 /* CachedImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B86E54A7FCF1DABE6AB1902BB0EBD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45B3F546B998E61338CDA05FA49D352 /* Pods-FortnightUtils_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		293CE36EB8013AEEB5F2E359232C1C95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FortnightUtils;
+			target = 86C80583D1D4FAC6A628628BA2BEDF7B /* FortnightUtils */;
+			targetProxy = F62ACED1B7C31C1D682BD6C42D2F27D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		197B78DDA075E587107FE5EFA8687B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB9C0473E614ECDCB4D9ABF07B5B0973 /* Pods-FortnightUtils_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FortnightUtils_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FortnightUtils_Tests/Pods-FortnightUtils_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7FE0D504EEDD845F186E695B7397255D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5214E708D7431CDDE87749C9EAC7C98 /* FortnightUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FortnightUtils/FortnightUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FortnightUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FortnightUtils/FortnightUtils.modulemap";
+				PRODUCT_MODULE_NAME = FortnightUtils;
+				PRODUCT_NAME = FortnightUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9DA25D36599659CBF8EE92C06EE62B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5214E708D7431CDDE87749C9EAC7C98 /* FortnightUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FortnightUtils/FortnightUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FortnightUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FortnightUtils/FortnightUtils.modulemap";
+				PRODUCT_MODULE_NAME = FortnightUtils;
+				PRODUCT_NAME = FortnightUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E4916BA17F1FD69CBDF06D545A096B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C013E6D0EDD43F7F39B19DE053248AB /* Pods-FortnightUtils_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FortnightUtils_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FortnightUtils_Tests/Pods-FortnightUtils_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		014883AC18F67779EB0A58886C15C3C1 /* Build configuration list for PBXNativeTarget "Pods-FortnightUtils_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4916BA17F1FD69CBDF06D545A096B83 /* Debug */,
+				197B78DDA075E587107FE5EFA8687B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7081CE05F5D33B67F958A56F4CAB00E /* Build configuration list for PBXNativeTarget "FortnightUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA25D36599659CBF8EE92C06EE62B4A /* Debug */,
+				7FE0D504EEDD845F186E695B7397255D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
