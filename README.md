@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/FortnightUtils.svg?style=flat)](https://cocoapods.org/pods/FortnightUtils)
 
 ## Description
-FortnightUtils is a small library of utils functions and variables that allow you to quickly build your app programmatically. The aim of this library is to use these components without worrying about creating your own helper files and extensions in order to build out production applications.
+FortnightUtils is a small library of handy functions and variables that allow you to quickly build your app programmatically. The aim of this library is to use these components without worrying about creating your own helper files and extensions in order to build out production applications.
 
 ## Features.
 
