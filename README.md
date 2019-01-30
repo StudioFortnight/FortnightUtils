@@ -107,14 +107,14 @@ UserDefaults.setAppFirstLaunch()
 #### Chached ImageView
 ##### Initializers
 ```swift
-let cachedImageView = CachedImageView(cornerRadius: <#T##CGFloat#>, emptyImage: <#T##UIImage?#>)
-let cachedImageView = CachedImageView(cornerRadius: <#T##CGFloat#>, tapCallback: <#T##(() -> ())##(() -> ())##() -> ()#>)
-let cachedImageView = CachedImageView(tapCallback: <#T##(() -> ())##(() -> ())##() -> ()#>)
+let cachedImageView = CachedImageView(cornerRadius: 5, emptyImage: emptyImage)
+let cachedImageView = CachedImageView(cornerRadius: 5, tapCallback: callback)
+let cachedImageView = CachedImageView(tapCallback: callback)
 ```
 ##### Load image async
 ```swift
 cachedImageView.loadImage(urlString: "url", completion: {
-    // Completion block
+// Completion block
 })
 ```
 
