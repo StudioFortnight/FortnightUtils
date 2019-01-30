@@ -1,9 +1,10 @@
 # FortnightUtils
 
-[![CI Status](https://img.shields.io/travis/andreatoso/FortnightUtils.svg?style=flat)](https://travis-ci.org/andreatoso/FortnightUtils)
 [![Version](https://img.shields.io/cocoapods/v/FortnightUtils.svg?style=flat)](https://cocoapods.org/pods/FortnightUtils)
 [![License](https://img.shields.io/cocoapods/l/FortnightUtils.svg?style=flat)](https://cocoapods.org/pods/FortnightUtils)
 [![Platform](https://img.shields.io/cocoapods/p/FortnightUtils.svg?style=flat)](https://cocoapods.org/pods/FortnightUtils)
+
+![Banner](https://i.imgur.com/WpNWmtX.png)
 
 ## Description
 FortnightUtils is a small library of functions and variables that allows you to quickly build your app programmatically. The aim of this library is to use these components without worrying about creating your own helper files and extensions in order to build out production applications.
