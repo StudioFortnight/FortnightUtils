@@ -36,17 +36,8 @@ import FortnightUtils
 #### UIColor
 
 ```swift
-let color = UIColor(r: 255, g: 255, b: 255, a: 1)
-```
-
-#### UserDefaults
-##### Check app first launch
-```swift
-let isFirstLaunch = UserDefaults.isAppFirstLaunch
-```
-##### Update app first launch
-```swift
-_ = UserDefaults.setAppFirstLaunch()
+let RGBColor = UIColor(r: 255, g: 255, b: 255, a: 1)
+let HEXColor = UIColor(hex: "#d73a49", alpha: 1)
 ```
 
 #### UILabel
@@ -70,20 +61,6 @@ myTextView.setLineHeight(value: 0.5, alignment: .center)
 ```
 > alignment is an optional parameter.
 
-#### UIViewController
-##### Add child view controller
-```swift
-let childViewController = ChildViewController()
-
-self.add(childViewController)
-```
-#### Remove child view controller
-```swift
-let childViewController = ChildViewController()
-
-childViewController.remove()
-```
-
 #### UIView
 ##### Fill superview
 ```swift
@@ -103,7 +80,42 @@ myView.anchorCenterXToSuperview()
 ```
 ##### Anchor UIView
 ```swift
+// Before
+myView.topAnchor.constraint(equalTo: view.topAnchor, constant: 10).isActive = true
+myView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 10).isActive = true
+myView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 10).isActive = true
+myView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 10).isActive = true
+
+// After
 myView.anchor(top: view.topAnchor, left: view.leftAnchor, bottom: view.bottomAnchor, right: view.rightAnchor, topConstant: 10, leftConstant: 10, bottomConstant: 10, rightConstant: 10, widthConstant: 0, heightConstant: 0)
+```
+
+#### UIViewController
+```swift
+let childViewController = ChildViewController()
+
+self.add(childViewController) // Add child view controller
+childViewController.remove() // Remove child view controller
+```
+
+#### UserDefaults
+```swift
+let isFirstLaunch = UserDefaults.isAppFirstLaunch
+UserDefaults.setAppFirstLaunch()
+```
+
+#### Chached ImageView
+##### Initializers
+```swift
+let cachedImageView = CachedImageView(cornerRadius: <#T##CGFloat#>, emptyImage: <#T##UIImage?#>)
+let cachedImageView = CachedImageView(cornerRadius: <#T##CGFloat#>, tapCallback: <#T##(() -> ())##(() -> ())##() -> ()#>)
+let cachedImageView = CachedImageView(tapCallback: <#T##(() -> ())##(() -> ())##() -> ()#>)
+```
+##### Load image async
+```swift
+cachedImageView.loadImage(urlString: "url", completion: {
+    // Completion block
+})
 ```
 
 ## Author
