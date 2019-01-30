@@ -57,9 +57,12 @@ import FortnightUtils
 ```
 
 #### UIColor
-
+##### RGB Color
 ```swift
 let RGBColor = UIColor(r: 255, g: 255, b: 255, a: 1)
+```
+##### HEX Color
+```swift
 let HEXColor = UIColor(hex: "#d73a49", alpha: 1)
 ```
 
@@ -84,6 +87,11 @@ myLabel.setLineHeight(value: 0.5, lineBreakMode: byWordWrapping, alignment: .cen
 > lineBreakMode and alignment are optional parameters.
 
 #### UITextView
+##### Set characters spacing
+```swift
+myTextView.setCharactersSpacing(value: 2.5)
+```
+##### Set line height
 ```swift
 myTextView.setLineHeight(value: 0.5)
 // or
