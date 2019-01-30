@@ -40,6 +40,13 @@ let RGBColor = UIColor(r: 255, g: 255, b: 255, a: 1)
 let HEXColor = UIColor(hex: "#d73a49", alpha: 1)
 ```
 
+#### UIButton
+
+```swift
+let button = UIButton.systemButton(title: "Title", image: nil, titleColor: .red, font: nil, target: self, selector: #selector(buttonSelector))
+
+```
+
 #### UILabel
 ##### Set characters spacing
 ```swift
@@ -114,7 +121,7 @@ let cachedImageView = CachedImageView(tapCallback: callback)
 ##### Load image async
 ```swift
 cachedImageView.loadImage(urlString: "url", completion: {
-// Completion block
+    // Completion block
 })
 ```
 
