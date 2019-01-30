@@ -8,6 +8,29 @@
 ## Description
 FortnightUtils is a small library of utils functions and variables that allow you to quickly build your app programmatically. The aim of this library is to use these components without worrying about creating your own helper files and extensions in order to build out production applications.
 
+## Features.
+
+- [UIColor](#uicolor)
+- [UIButton](#uibutton)
+- [UILabel](#uilabel)
+  - [Characters spacing](#set-characters-spacing)
+  - [Line height](#set-line-height)
+- [UITextView](#uitextview)
+  - [Line height](#uitextview)
+- [UIView](#uiview)
+  - [Fill superview](#fill-superview)
+  - [Center to superview](#center-to-superview)
+  - [Center Y axis to superview](#center-y-axis-to-superview)
+  - [Center X axis to superview](#center-x-axis-to-superview)
+  - [Anchor UIView](#anchor-uiview)
+- [UIViewController](#uiviewcontroller)
+  - [Add and remove child view controller](#uiviewcontroller)
+- [UserDefaults](#userdefaults)
+  - [Get app first launch](#userdefaults)
+- [Chached ImageView](#chached-imageview)
+  - [Initializers](#initializers)
+  - [Load image async](#load-image-async)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
